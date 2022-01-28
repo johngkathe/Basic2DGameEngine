@@ -1,0 +1,23 @@
+John G. Kathe
+Project 4
+11/17/20
+
+Notes:
+Both types of colliders are implemented.
+Walking to the river causes Gisela to stop moving(Box Collider).
+Walking next to the Unlit torch on the left side of the map lights it(Circle Collider).
+^ The bottom right of the torch
+The Waterfalls and Right Torch are Particle Effects that are unmodifiable in game.
+
+Only new input command is the 'F', to use a spellcast, for reasons unknown to me the
+spell doesn't appear, although I've kept some diagnostic printed notes to prove the cast
+
+One addition of note is overhauling the movement a bit to accomodate colliders, and have
+added a char as the way to determine the direction Gisela is walking and as a way to help
+With the input of spellcasts
+
+Overall, I think I'll need to tidy up some things to make the engine work more seamlessly,
+As well as add some elements like attacking and damage, but for where I'm at right now
+I think it is satisfactory.
+
+Enjoy!
